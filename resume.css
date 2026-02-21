@@ -485,6 +485,7 @@ body {
 .container6skillscard {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .container6displayname {
   display: flex;
@@ -494,6 +495,7 @@ body {
 }
 .container6eachskill {
   display: flex;
+  width: 100%;
 }
 .container6skill {
   display: flex;
@@ -532,6 +534,33 @@ body {
 .container6skillusedfor {
   display: flex;
   margin: 10px;
+}
+#database{
+    width: 65%;
+}
+#html{
+    flex: 1;
+}
+#css{
+    flex: 1;
+}
+#javascript{
+    flex: 1;
+}
+#python{
+    flex: 1;
+}
+#django{
+    flex: 1;
+}
+#java{
+    flex: 1;
+}
+#mysql{
+    flex: 1;
+}
+#sql{
+    flex: 1;
 }
 .container7 {
   display: flex;
