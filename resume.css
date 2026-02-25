@@ -662,7 +662,7 @@ body {
   height: 100px;
   width: 100%;
 }
-.container7contactrightname{
+.container7contactrightname {
   display: flex;
   width: 50%;
 }
@@ -675,7 +675,7 @@ body {
   align-items: center;
   padding: 20px;
 }
-.container7contactrightemail{
+.container7contactrightemail {
   display: flex;
   width: 50%;
 }
@@ -688,7 +688,7 @@ body {
   align-items: center;
   padding: 20px;
 }
-.container7contactrightsubject{
+.container7contactrightsubject {
   display: flex;
   width: 100%;
 }
@@ -701,7 +701,7 @@ body {
   margin: 20px;
   padding: 20px;
 }
-.container7contactrightmessage{
+.container7contactrightmessage {
   display: flex;
   width: 100%;
   height: 290px;
@@ -824,12 +824,12 @@ body {
   margin: 20px;
 }
 @media all and (max-width: 700px) {
-  .maincontainer{
+  .maincontainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .container1{
+  .container1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -838,93 +838,122 @@ body {
     overflow-x: auto;
     white-space: nowrap;
   }
-  .container2{
+  .container2 {
     display: flex;
-    background-color: red;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
   }
-  .container2leftandright{
+  .container2leftandright {
     display: flex;
     flex-direction: column;
   }
-  .container2leftbuttons{
+  .container2leftbuttons {
     display: flex;
     flex-direction: column;
     height: 150px;
   }
-  .container2bottom{
+  .container2bottom {
     display: flex;
     margin-top: 10px;
     align-items: center;
   }
-  .container2right{
+  .container2right {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    padding-bottom: 20px;
     padding-top: 20px;
   }
-  .container3{
+  .container3 {
     display: flex;
     flex-direction: column;
     width: 100%;
   }
-  .container3bottom{
+  .container3bottom {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .container4{
+  .container4 {
     flex-direction: column;
   }
-  .container4items{
+  .container4main {
+    justify-content: center;
+  }
+  .container4items {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
-  .container4item{
+  .container4item {
     justify-content: center;
     align-items: center;
     margin: 20px 0;
     width: 100%;
   }
-  .container5{
+  .container4line1 {
+    width: 95%;
+  }
+  .container4company {
+    width: 95%;
+  }
+  .container4location {
+    width: 95%;
+  }
+  .container4time {
+    display: flex;
+    width: 95%;
+    justify-content: flex-start;
+    margin-left: -1px;
+  }
+  .container4list {
+    justify-content: flex-start;
+  }
+  .container5 {
     width: 100%;
     flex-direction: column;
     margin: 10px;
   }
-  .container6{
+  .container5projects {
+    width: 100%;
+  }
+  .container5project {
+    width: 100%;
+  }
+  .container6 {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
-  .container6skillsused{
+  .container6skillsused {
+    width: 100%;
+    border: 1px solid black;
+  }
+  .container6eachskill {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    border: 1px solid black;
+    width: 90%;
   }
-  .container6eachskill{
+  .container6skill {
     display: flex;
     flex-direction: column;
     margin: 10px;
+    width: 90%;
   }
-  .container6skill{
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-  }
-  .container7contactmain{
+  .container7contactmain {
     display: flex;
     flex-direction: column;
   }
-  .container7contactleft{
+  .container7contactleft {
     justify-content: center;
     width: 100%;
   }
-  .container7contactright{
+  .container7contactright {
     width: 100%;
     justify-content: center;
   }
-  .footermain{
+  .footermain {
     flex-direction: column;
   }
 }
