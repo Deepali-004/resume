@@ -865,7 +865,10 @@ body {
   .container3 {
     display: flex;
     flex-direction: column;
-    width: 98%;
+    width: 100%;
+  }
+  .container3item {
+    width: 97%;
   }
   .container3bottom {
     display: flex;
@@ -924,7 +927,7 @@ body {
     flex-direction: column;
     width: 100%;
   }
-  .container6name{
+  .container6name {
     width: 98%;
   }
   .container6skillsused {
