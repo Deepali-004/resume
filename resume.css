@@ -61,7 +61,6 @@ body {
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
   padding-top: 100px;
   padding-bottom: 30px;
 }
@@ -169,10 +168,9 @@ body {
   justify-content: center;
   border-radius: 50%;
   animation: slideup;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
 }
 .container2rightimage img:hover {
   transform: scale(1.05);
@@ -206,7 +204,6 @@ body {
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
 }
 .container3top {
   display: flex;
@@ -296,7 +293,6 @@ body {
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
 }
 .container4main {
   display: flex;
@@ -384,7 +380,6 @@ body {
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
 }
 .container5name {
   display: flex;
@@ -464,7 +459,6 @@ body {
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
 }
 .container6name {
   display: flex;
@@ -551,7 +545,6 @@ body {
   animation-duration: 2s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  animation-delay: 0.5s;
 }
 .container7head {
   display: flex;
