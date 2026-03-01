@@ -157,6 +157,10 @@ body {
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   justify-content: center;
+  animation: slideup;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 .container2rightimage img {
   display: flex;
@@ -164,15 +168,10 @@ body {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border: 5px solid black;
-  transition: transform 0.5s ease;
   justify-content: center;
   border-radius: 50%;
-  animation: slideup;
-  animation-duration: 2s;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: forwards;
 }
-.container2rightimage img:hover {
+.container2rightimage img:hover{
   transform: scale(1.05);
 }
 .container2bottom {
